@@ -91,13 +91,8 @@ Where scores measure the ratio of **High-Tech** vs **Low-Tech** activity.
 
 ### **Reproducibility**
 
-All analyses are fully reproducible using the notebooks in `/notebooks`.
-The pipeline can be re-run using:
-
-```bash
-python3 -m src.syber_index
-```
-
+All analyses are fully reproducible using the notebooks in this directory.
+Full LaTeX paper also in directory for further information. 
 ---
 
 ## **Use Cases**
@@ -141,6 +136,3 @@ You are free to use, modify, and distribute this project with attribution.
 
 ---
 
-
-
-Just say the word.
