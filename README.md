@@ -6,7 +6,7 @@
 **A SyberLabs Research Project**
 ## https://syberlabs.github.io/Syber-Index/
 ---
-
+[https://i.imgur.com/nq1ptYJ.png]
 ## **Overview**
 
 The **Syber Index** is a novel leading indicator of national economic complexity derived from large-scale digital behavioral data. By analyzing more than a decade of global software development activity (Stack Overflow, GitHub, Google Patents), the project measures a country’s **Cognitive Complexity**—a proxy for its collective intellectual output.
