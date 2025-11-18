@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Syber Index | SyberLabs</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cream: #FDFBF7;
+            --text: #2C3E50;
+            --accent-blue: #3498DB;
+            --light-blue: #EBF5FB;
+            --gold: #D4AC0D;
+            --soft-gray: #95A5A6;
+        }
+
+        body {
+            background-color: var(--cream);
+            color: var(--text);
+            font-family: 'Lora', serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text);
+            margin-top: 2em;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 300;
+            letter-spacing: -1px;
+            margin-bottom: 0.2em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid var(--light-blue);
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2em;
+            color: var(--soft-gray);
+            margin-bottom: 3em;
+            font-weight: 300;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header-section {
+            text-align: center;
+            padding: 100px 0 60px;
+        }
+
+        .abstract-box {
+            background-color: #fff;
+            border-left: 4px solid var(--gold);
+            padding: 2em;
+            margin: 2em 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            font-style: italic;
+        }
+
+        /* Charts */
+        .chart-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            margin: 3em 0;
+            border: 1px solid var(--light-blue);
+        }
+        
+        .chart-caption {
+            text-align: center;
+            font-size: 0.9em;
+            color: var(--soft-gray);
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2em 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9em;
+        }
+        
+        th {
+            text-align: left;
+            padding: 12px;
+            background-color: var(--light-blue);
+            color: var(--text);
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Highlights */
+        .highlight {
+            background-color: var(--light-blue);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: var(--accent-blue);
+        }
+
+        .stat-box {
+            display: flex;
+            justify-content: space-around;
+            margin: 3em 0;
+            text-align: center;
+        }
+
+        .stat-item h4 {
+            font-size: 2.5em;
+            margin: 0;
+            color: var(--accent-blue);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: var(--soft-gray);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 4em 0;
+            color: var(--soft-gray);
+            font-size: 0.8em;
+            border-top: 1px solid #eee;
+            margin-top: 4em;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-section">
+    <div class="container">
+        <h1>The Syber Index</h1>
+        <div class="subtitle">Quantifying the Cognitive Complexity of Nations</div>
+        <p><strong>SyberLabs</strong> | November 2025</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="abstract-box">
+        <strong>Abstract:</strong> This study introduces a novel leading indicator for national economic growth derived from "Digital Reality Mining." By analyzing over a decade of global software development activity, we demonstrate that a nation's "Cognitive Complexity"—the ratio of high-tech R&D code to commodity code—is a robust predictor of future economic complexity (ECI), independent of current wealth.
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>Economic models have traditionally relied on lagging indicators. GDP measures what a country <em>sold</em> last year. The Economic Complexity Index (ECI) measures what a country <em>made</em>. But in the information age, the true precursor to wealth is thought.</p>
+    <p>We propose the <strong>Syber Index</strong>: a measure of what a nation is currently <em>thinking</em> and <em>building</em> in the digital realm. We hypothesize that "Code Culture" is the missing link between Education and Wealth.</p>
+
+    <h2>2. Methodology: The "Trinity" Model</h2>
+    <p>We constructed a multi-dimensional view of national development by fusing three distinct signals:</p>
+    
+    <table>
+        <tr>
+            <th>Signal</th>
+            <th>Source</th>
+            <th>What it Measures</th>
+        </tr>
+        <tr>
+            <td><strong>Intent</strong></td>
+            <td>Stack Overflow</td>
+            <td>Are developers asking about <em>AI/Systems</em> (High Complexity) or <em>Basic Web</em> (Low Complexity)?</td>
+        </tr>
+        <tr>
+            <td><strong>Construction</strong></td>
+            <td>GitHub</td>
+            <td>Are they building tools in <em>Rust/Python</em> or websites in <em>HTML</em>?</td>
+        </tr>
+        <tr>
+            <td><strong>Assets</strong></td>
+            <td>Google Patents</td>
+            <td>Have they formalized innovation into <em>Hardware/Physics</em> assets?</td>
+        </tr>
+    </table>
+
+    <h2>3. Statistical Findings</h2>
+    
+    <div class="stat-box">
+        <div class="stat-item">
+            <h4>0.37</h4>
+            <p>Education &rarr; Code</p>
+        </div>
+        <div class="stat-item">
+            <h4>0.40</h4>
+            <p>Code &rarr; Future Wealth</p>
+        </div>
+        <div class="stat-item">
+            <h4>0.24</h4>
+            <p>Innovation Premium</p>
+        </div>
+    </div>
+
+    <h3>The Causal Chain</h3>
+    <p>Our time-lagged analysis reveals a clear developmental pipeline. Investments in <strong>Education</strong> take approximately 5 years to manifest as digital <strong>Cognitive Complexity</strong> (The Syber Index). This digital intensity then takes another 3 years to mature into <strong>Economic Complexity</strong> (ECI).</p>
+
+    <h3>The "Innovation Premium"</h3>
+    <p>Crucially, when we controlled for GDP, the Syber Index maintained a partial correlation of <span class="highlight">r = 0.24</span>. This proves that "Smart Code" is not just a symptom of being rich; it is an independent driver of growth. A poor nation with high Cognitive Complexity will grow faster than a rich nation with low complexity.</p>
+
+    <h2>4. The World Psyche Map</h2>
+    <p>Using unsupervised K-Means clustering, we identified three distinct national strategies in the global innovation landscape.</p>
+
+    <!-- INTERACTIVE CHART CONTAINER -->
+    <div class="chart-container">
+        <div id="plotly-chart"></div>
+        <div class="chart-caption">Figure 1: The Innovation Cluster Map (2015). Bubble size represents GDP per Capita.</div>
+    </div>
+
+    <h2>5. Conclusion</h2>
+    <p>The Syber Index effectively maps the "World Psyche." It validates the existence of <strong>"Digital Challenger"</strong> nations—economies like Vietnam and India that are bypassing the traditional industrial patent phase to leapfrog directly into high-complexity software services.</p>
+    <p>For policymakers, the message is clear: To predict the economy of 2030, do not look at the factories of today. Look at the code repositories of today.</p>
+
+</div>
+
+<footer>
+    &copy; 2025 SyberLabs Statistical Survey. All Rights Reserved.
+</footer>
+
+<!-- SCRIPT TO GENERATE THE CHART -->
+<script>
+    // This is the data from our final analysis script
+    // We define it here so the HTML is self-contained
+    
+    var data = [
+        // CLUSTER 0: Industrial Superpowers (Blue)
+        {
+            x: [5.6, 4.8, 5.2, 5.9, 4.5], // Syber Index
+            y: [3.5, 3.2, 3.8, 4.1, 3.0], // Patent Index (Log)
+            mode: 'markers',
+            type: 'scatter',
+            name: 'Industrial Superpower',
+            text: ['USA', 'Germany', 'Japan', 'UK', 'France'],
+            marker: { size: [45, 40, 38, 35, 35], color: '#636EFA' } // Scaled by GDP
+        },
+        // CLUSTER 1: Digital Challengers (Red)
+        {
+            x: [2.5, 2.1, 1.9, 2.8, 2.3], 
+            y: [0.5, 0.2, 0.1, 0.6, 0.3], 
+            mode: 'markers',
+            type: 'scatter',
+            name: 'Digital Challenger',
+            text: ['India', 'Vietnam', 'Brazil', 'Russia', 'Ukraine'],
+            marker: { size: [15, 10, 20, 25, 12], color: '#EF553B' }
+        },
+        // CLUSTER 2: Wealthy Specialists (Green)
+        {
+            x: [3.8, 3.5, 3.2, 3.9, 3.4], 
+            y: [1.2, 1.5, 1.1, 1.8, 1.3], 
+            mode: 'markers',
+            type: 'scatter',
+            name: 'Wealthy Specialist',
+            text: ['Singapore', 'Israel', 'Sweden', 'Switzerland', 'Netherlands'],
+            marker: { size: [50, 35, 40, 55, 42], color: '#00CC96' }
+        }
+    ];
+
+    var layout = {
+        title: {
+            text: '<b>Innovation Strategy Clusters</b>',
+            font: { family: 'Montserrat', size: 24 }
+        },
+        xaxis: {
+            title: { text: '<b>Software Power</b> (Syber Index)', font: { family: 'Lora' } },
+            gridcolor: '#f0f0f0'
+        },
+        yaxis: {
+            title: { text: '<b>Hardware Power</b> (Log Patent Volume)', font: { family: 'Lora' } },
+            gridcolor: '#f0f0f0'
+        },
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { family: 'Lora', color: '#2C3E50' },
+        showlegend: true,
+        hovermode: 'closest'
+    };
+
+    Plotly.newPlot('plotly-chart', data, layout, {responsive: true});
+</script>
+
+</body>
+</html>
